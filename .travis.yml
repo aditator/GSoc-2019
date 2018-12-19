@@ -1,5 +1,6 @@
 language: r
-install.packages("covr")
+r_github_packages:
+  - r-lib/covr
 
-# For devel version
-devtools::install_github("r-lib/covr")
+after_success:
+  - Rscript -e 'covr::codecov()'
