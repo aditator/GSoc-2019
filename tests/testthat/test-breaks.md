@@ -8,4 +8,6 @@ test_that("Segmentor@breaks returns expected value",{
   expect_equal(Segmentor(c(1,1),Kmax=2,model=1)@breaks,matrix(c(2,2,0,2),nrow=2))
 })
 ```
+
+It can be seen here that the test fails on a Windows OS.
 ![alt tag](https://user-images.githubusercontent.com/37847118/51755869-a804d780-20e5-11e9-9078-c861b6cc28a7.PNG)
