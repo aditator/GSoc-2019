@@ -17,9 +17,9 @@ test_that("Segmentor@breaks returns expected value",{
   colnames(M2)=NULL
   row.names(M2)=NULL
   expect_equal(M1,N1,check.attributes=FALSE)
-  expect_equal(M2,N2,check.attributes=FALSE)
+  expect_equal(M2,N2+1,check.attributes=FALSE)
 })
 ```
 
-It can be seen here that the test is passing on a Windows OS.
-![alt tag](https://user-images.githubusercontent.com/37847118/52407068-42f1ae80-2af5-11e9-8277-2397c13ec1c0.PNG)
+It can be seen here that the first test passes but the second test fails on Windows.
+![alt tag](https://user-images.githubusercontent.com/37847118/52407757-222a5880-2af7-11e9-8413-acf0504b5600.PNG)
