@@ -1,4 +1,5 @@
 usethis::use_testthat()
+devtools::use_appveyor()
 context("Breaks")
 library(Segmentor3IsBack)
 test_that("Segmentor@breaks returns expected value",{
