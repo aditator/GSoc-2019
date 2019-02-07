@@ -14,5 +14,5 @@ test_that("Segmentor@breaks returns expected value",{
   colnames(M2)=NULL
   row.names(M2)=NULL
   expect_equal(M1,N1,check.attributes=FALSE)
-  expect_equal(M2,N2,check.attributes=FALSE)
+  expect_equal(M2,N2+1,check.attributes=FALSE)
 })
