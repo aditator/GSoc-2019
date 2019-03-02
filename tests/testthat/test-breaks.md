@@ -23,3 +23,6 @@ test_that("Segmentor@breaks returns expected value",{
 
 It can be seen here that the first test passes but the second test fails on Windows.
 ![alt tag](https://user-images.githubusercontent.com/37847118/52407757-222a5880-2af7-11e9-8413-acf0504b5600.PNG)
+
+## Win-builder Check Log Results (Cropped to Specifics)
+![alt tag](https://user-images.githubusercontent.com/37847118/53681486-40f3c780-3d10-11e9-8169-c739e1e7d82f.PNG)
